@@ -1,7 +1,7 @@
 @echo off
-title SINTESA VOKASI - Sistem Generator Modul Ajar TEFA SMK
+title GEMA FYJ - Generate Modul Pembelajaran Aktif
 echo ========================================================
-echo   SINTESA VOKASI - Web Application
+echo   GEMA FYJ - Generate Modul Pembelajaran Aktif
 echo   Sistem Generator Modul Ajar & RPP TEFA SMK
 echo ========================================================
 echo.

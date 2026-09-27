@@ -2,7 +2,7 @@
 // api/export-docx.php
 
 $htmlContent = $_POST['html'] ?? '';
-$judul       = $_POST['judul'] ?? 'RPP-SINTESA-VOKASI';
+$judul       = $_POST['judul'] ?? 'RPP-GEMA-FYJ';
 
 // If sent as JSON
 if (empty($htmlContent)) {
@@ -21,7 +21,7 @@ if (empty($htmlContent)) {
 
 $safeFilename = preg_replace('/[^a-zA-Z0-9_\-\.]/', '_', trim($judul));
 if (empty($safeFilename)) {
-    $safeFilename = 'RPP-TEFA-SINTESA-VOKASI';
+    $safeFilename = 'RPP-TEFA-GEMA-FYJ';
 }
 $filename = $safeFilename . '.doc';
 

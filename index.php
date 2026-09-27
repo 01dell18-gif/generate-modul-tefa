@@ -15,7 +15,7 @@ $jsVer  = file_exists(__DIR__ . '/assets/js/app.js') ? filemtime(__DIR__ . '/ass
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEMA FYJ — Generate Modul Pembelajaran Aktif</title>
+    <title>GEMA FYJ - Generate Modul Pembelajaran Aktif</title>
     <meta name="description" content="Platform cerdas penyusunan Modul Ajar & RPP Pembelajaran Mendalam berbasis Teaching Factory (TEFA) untuk SMK Kurikulum Merdeka dengan Dual-Engine AI dan True WYSIWYG Word Exporter.">
     <link rel="stylesheet" href="assets/css/style.css?v=<?= $cssVer ?>">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">

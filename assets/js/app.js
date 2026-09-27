@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SINTESA VOKASI - Frontend Application Logic
+   GEMA FYJ - Generate Modul Pembelajaran Aktif - Frontend Application Logic
    ========================================================================== */
 (function () {
     'use strict';

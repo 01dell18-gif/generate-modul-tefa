@@ -1,5 +1,5 @@
-# ⚡ GEMA FYJ — Generator Modul Ajar & RPP TEFA Vokasi
-### *Sistem Generator Modul Pembelajaran Aktif & Perencanaan Pembelajaran Mendalam SMK Berbasis Teaching Factory (TEFA)*
+# ⚡ GEMA FYJ - Generate Modul Pembelajaran Aktif
+### *Sistem Generator Modul Ajar & RPP SMK Berbasis Teaching Factory (TEFA)*
 
 [![Versi](https://img.shields.io/badge/Versi-1.3.0--PROD-blue.svg)](file:///d:/Coba/App%20Generate%20Modul/app_generator_modul.md)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-777bb4.svg)](https://www.php.net/)
@@ -324,6 +324,8 @@ git pull origin main
 > 3. Lakukan `git add .`, buat commit deskriptif, dan lakukan `git push` ke GitHub.
 
 ### Riwayat Versi:
+- **v1.3.1**:
+  - Pembaruan judul resmi aplikasi menjadi **GEMA FYJ - Generate Modul Pembelajaran Aktif** secara konsisten di antarmuka web, skrip peluncur `start_app.bat`, header stylesheet/script, dan template dokumen ekspor Word.
 - **v1.3.0-PROD (Maret 2026)**:
   - Penambahan integrasi dokumen legalitas & pengesahan formal dua kolom (Kepala Sekolah & Guru Pengampu).
   - Pustaka referensi nasional 18 program keahlian lengkap dengan elemen BSKAP 032/H/KR/2024.

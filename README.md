@@ -265,11 +265,16 @@ git commit -m "feat: rilis awal aplikasi generator modul tefa vokasi"
 # 7. Tentukan branch utama sebagai 'main'
 git branch -M main
 
-# 8. Hubungkan remote repository GitHub
+# 8. Hubungkan remote repository GitHub (hanya jika belum terhubung)
 git remote add origin https://github.com/01dell18-gif/generate-modul-tefa.git
 
 # 9. Push berkas ke GitHub
+# Jika repositori GitHub dibuat tanpa centang README (benar-benar kosong):
 git push -u origin main
+
+# PENTING: Jika saat membuat repo di web GitHub Anda mencentang "Add a README",
+# Git akan menolak push biasa. Gunakan perintah force push berikut untuk menimpa file dummy GitHub:
+git push -u origin main --force
 ```
 
 ---
@@ -306,6 +311,8 @@ git pull origin main
 
 | Gejala Masalah | Penyebab Umum | Solusi Cepat |
 | :--- | :--- | :--- |
+| **Git Push Ditolak [rejected - fetch first]** | Repositori GitHub sudah berisi commit awal (misal file README bawaan GitHub saat repo dibuat). | Jalankan `git push -u origin main --force` untuk menimpa file awal GitHub dengan kode proyek lokal yang lengkap. |
+| **error: remote origin already exists** | Remote origin sudah pernah didaftarkan sebelumnya di Git lokal. | Anda tidak perlu menjalankan `git remote add` lagi. Langsung jalankan `git push origin main`. |
 | **Port 8080 sudah digunakan aplikasi lain** | Port 8080 sedang dipakai software lain di PC Anda. | Edit file `start_app.bat`, ganti angka `8080` menjadi port lain (misal: `8090` atau `8888`), lalu simpan dan jalankan ulang. |
 | **Tombol Generate memakai Smart Generator bukan AI** | Kunci API Gemini belum diatur atau koneksi internet terputus. | Buka menu `⚙️ Pengaturan API`, masukkan API Key Gemini yang valid. Jika kuota API habis, sistem akan otomatis beralih ke Smart Generator agar modul tetap dapat diproduksi. |
 | **Pesan error koneksi database** | Service MySQL XAMPP belum aktif. | Buka XAMPP Control Panel dan klik tombol **Start** pada modul MySQL. Jika tetap gagal, hapus config MySQL atau biarkan sistem otomatis beralih ke SQLite lokal (`data/`). |

@@ -1,0 +1,19 @@
+# Dependency & Environment
+.env
+.env.local
+
+# Database SQLite & Data Directory
+data/*.sqlite
+data/*.sqlite-journal
+
+# Logs & Temporary files
+*.log
+error_log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.sublime-project
+*.sublime-workspace

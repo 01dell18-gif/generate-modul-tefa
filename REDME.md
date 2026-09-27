@@ -152,7 +152,7 @@ Metode ini sangat cocok bagi pengguna Windows karena sudah menyediakan PHP dan M
 #### Langkah 2: Dapatkan Source Code Aplikasi
 Buka Terminal / Command Prompt (CMD) di folder yang Anda inginkan (misalnya `D:\` atau `C:\xampp\htdocs`), lalu clone repositori:
 ```bash
-git clone https://github.com/01dell18-gif/generate-modul-tefa.git
+git clone https://github.com/[name github]/generate-modul-tefa.git
 ```
 *(Atau salin seluruh folder proyek ini langsung menggunakan Flashdisk/LAN).*
 
@@ -239,7 +239,7 @@ Pada **Section 1**:
 ## 🐙 Panduan Upload & Sinkronisasi ke GitHub
 
 Repositori resmi proyek ini terhubung ke:
-`https://github.com/01dell18-gif/generate-modul-tefa.git`
+`https://github.com/[name github]/generate-modul-tefa.git`
 
 ### 1. Upload Pertama Kali ke GitHub (Jika Membuat Repo Baru)
 
@@ -267,7 +267,7 @@ git commit -m "feat: rilis awal aplikasi generator modul tefa vokasi"
 git branch -M main
 
 # 8. Hubungkan remote repository GitHub (hanya jika belum terhubung)
-git remote add origin https://github.com/01dell18-gif/generate-modul-tefa.git
+git remote add origin https://github.com/[name github]/generate-modul-tefa.git
 
 # 9. Push berkas ke GitHub
 # Jika repositori GitHub dibuat tanpa centang README (benar-benar kosong):

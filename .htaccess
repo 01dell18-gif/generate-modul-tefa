@@ -1,0 +1,10 @@
+# Apache Configuration for SINTESA VOKASI
+
+Options -Indexes
+
+# Restrict sensitive system directories
+RewriteEngine On
+RewriteRule ^(config|middleware|engine|data|database)/ - [F,L]
+
+# Character encoding
+AddDefaultCharset UTF-8
